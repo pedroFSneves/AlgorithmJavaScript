@@ -30,7 +30,7 @@ function divideNoPivo(array) {
     for(let analisando = 0; analisando < array.length; analisando++){
         let atual = array[analisando];
 
-        if(atual.preco < pivo.preco && atual !== pivo){
+        if(atual.preco < pivo.preco && atual !== pivo){ //(&& !==)atual diferente de pivo
             trocaLugar(array, analisando, valoresMenores);
             valoresMenores++
         }
