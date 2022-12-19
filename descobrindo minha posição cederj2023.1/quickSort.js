@@ -1,6 +1,8 @@
 const candidatosNotas = require('./ListaCandidatos');
 const trocaLugar = require('./encontraMenores');
 
+//eu cpf: "188.xxx.xxx-09" nome: "pedro"
+
 function quickSort(array, left, right){
     if(array.length > 1){
         let indiceAtual = particiona(array, left, right);
